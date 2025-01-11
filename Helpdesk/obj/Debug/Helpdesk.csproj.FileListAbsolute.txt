@@ -34,3 +34,7 @@ C:\Helpdesk\Helpdesk\bin\Helpdesk.pdb
 C:\Helpdesk\Helpdesk\obj\Debug\ResolveAssemblyReference.cache
 C:\Helpdesk\Helpdesk\obj\Debug\Helpdesk.dll
 C:\Helpdesk\Helpdesk\obj\Debug\Helpdesk.pdb
+C:\Users\testw\Desktop\HelpDesk\HelpDesk\Helpdesk\obj\Debug\Helpdesk.csproj.AssemblyReference.cache
+C:\Users\testw\Desktop\HelpDesk\HelpDesk\Helpdesk\obj\Debug\Helpdesk.csproj.CoreCompileInputs.cache
+C:\Users\testw\Desktop\HelpDesk\HelpDesk\Helpdesk\obj\Debug\Helpdesk.dll
+C:\Users\testw\Desktop\HelpDesk\HelpDesk\Helpdesk\obj\Debug\Helpdesk.pdb
