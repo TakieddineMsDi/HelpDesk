@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="AgencesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+<Schema Namespace="AgencesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
   <EntityContainer Name="AgencesModelStoreContainer">
-    <EntitySet Name="Agences" EntityType="AgencesModel.Store.Agences" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Equipement" EntityType="AgencesModel.Store.Equipement" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Equipement_Modems" EntityType="AgencesModel.Store.Equipement_Modems" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Equipement_Routeurs" EntityType="AgencesModel.Store.Equipement_Routeurs" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Equipement_Switchers" EntityType="AgencesModel.Store.Equipement_Switchers" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historique_Login" EntityType="AgencesModel.Store.Historique_Login" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Adsls" EntityType="AgencesModel.Store.Historiques_Adsls" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Agences" EntityType="AgencesModel.Store.Historiques_Agences" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Framerelays" EntityType="AgencesModel.Store.Historiques_Framerelays" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Modems" EntityType="AgencesModel.Store.Historiques_Modems" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Routeurs" EntityType="AgencesModel.Store.Historiques_Routeurs" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Historiques_Switcheurs" EntityType="AgencesModel.Store.Historiques_Switcheurs" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Liaison" EntityType="AgencesModel.Store.Liaison" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Liaison_Adsl" EntityType="AgencesModel.Store.Liaison_Adsl" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Liaison_Framerelay" EntityType="AgencesModel.Store.Liaison_Framerelay" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Responsabilité" EntityType="AgencesModel.Store.Responsabilité" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Responsables" EntityType="AgencesModel.Store.Responsables" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Zones" EntityType="AgencesModel.Store.Zones" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Agences" EntityType="AgencesModel.Store.Agences" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Equipement" EntityType="AgencesModel.Store.Equipement" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Equipement_Modems" EntityType="AgencesModel.Store.Equipement_Modems" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Equipement_Routeurs" EntityType="AgencesModel.Store.Equipement_Routeurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Equipement_Switchers" EntityType="AgencesModel.Store.Equipement_Switchers" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historique_Login" EntityType="AgencesModel.Store.Historique_Login" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Adsls" EntityType="AgencesModel.Store.Historiques_Adsls" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Agences" EntityType="AgencesModel.Store.Historiques_Agences" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Framerelays" EntityType="AgencesModel.Store.Historiques_Framerelays" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Modems" EntityType="AgencesModel.Store.Historiques_Modems" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Routeurs" EntityType="AgencesModel.Store.Historiques_Routeurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Historiques_Switcheurs" EntityType="AgencesModel.Store.Historiques_Switcheurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Liaison" EntityType="AgencesModel.Store.Liaison" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Liaison_Adsl" EntityType="AgencesModel.Store.Liaison_Adsl" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Liaison_Framerelay" EntityType="AgencesModel.Store.Liaison_Framerelay" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Responsabilité" EntityType="AgencesModel.Store.Responsabilité" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Responsables" EntityType="AgencesModel.Store.Responsables" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Zones" EntityType="AgencesModel.Store.Zones" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
     <AssociationSet Name="FK_Adsl_inherits_Liaison" Association="AgencesModel.Store.FK_Adsl_inherits_Liaison">
       <End Role="Liaison" EntitySet="Liaison" />
       <End Role="Liaison_Adsl" EntitySet="Liaison_Adsl" />

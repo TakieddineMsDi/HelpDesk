@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
   <!-- EF Runtime content -->
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="AgencesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+    <Schema Namespace="AgencesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
         <EntityContainer Name="AgencesModelStoreContainer">
-          <EntitySet Name="Agences" EntityType="AgencesModel.Store.Agences" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Equipement" EntityType="AgencesModel.Store.Equipement" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Equipement_Modems" EntityType="AgencesModel.Store.Equipement_Modems" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Equipement_Routeurs" EntityType="AgencesModel.Store.Equipement_Routeurs" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Equipement_Switchers" EntityType="AgencesModel.Store.Equipement_Switchers" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historique_Login" EntityType="AgencesModel.Store.Historique_Login" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Adsls" EntityType="AgencesModel.Store.Historiques_Adsls" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Agences" EntityType="AgencesModel.Store.Historiques_Agences" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Framerelays" EntityType="AgencesModel.Store.Historiques_Framerelays" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Modems" EntityType="AgencesModel.Store.Historiques_Modems" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Routeurs" EntityType="AgencesModel.Store.Historiques_Routeurs" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Historiques_Switcheurs" EntityType="AgencesModel.Store.Historiques_Switcheurs" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Liaison" EntityType="AgencesModel.Store.Liaison" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Liaison_Adsl" EntityType="AgencesModel.Store.Liaison_Adsl" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Liaison_Framerelay" EntityType="AgencesModel.Store.Liaison_Framerelay" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Responsabilité" EntityType="AgencesModel.Store.Responsabilité" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Responsables" EntityType="AgencesModel.Store.Responsables" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Zones" EntityType="AgencesModel.Store.Zones" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Agences" EntityType="AgencesModel.Store.Agences" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Equipement" EntityType="AgencesModel.Store.Equipement" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Equipement_Modems" EntityType="AgencesModel.Store.Equipement_Modems" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Equipement_Routeurs" EntityType="AgencesModel.Store.Equipement_Routeurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Equipement_Switchers" EntityType="AgencesModel.Store.Equipement_Switchers" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historique_Login" EntityType="AgencesModel.Store.Historique_Login" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Adsls" EntityType="AgencesModel.Store.Historiques_Adsls" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Agences" EntityType="AgencesModel.Store.Historiques_Agences" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Framerelays" EntityType="AgencesModel.Store.Historiques_Framerelays" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Modems" EntityType="AgencesModel.Store.Historiques_Modems" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Routeurs" EntityType="AgencesModel.Store.Historiques_Routeurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Historiques_Switcheurs" EntityType="AgencesModel.Store.Historiques_Switcheurs" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Liaison" EntityType="AgencesModel.Store.Liaison" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Liaison_Adsl" EntityType="AgencesModel.Store.Liaison_Adsl" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Liaison_Framerelay" EntityType="AgencesModel.Store.Liaison_Framerelay" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Responsabilité" EntityType="AgencesModel.Store.Responsabilité" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Responsables" EntityType="AgencesModel.Store.Responsables" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Zones" EntityType="AgencesModel.Store.Zones" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
           <AssociationSet Name="FK_Adsl_inherits_Liaison" Association="AgencesModel.Store.FK_Adsl_inherits_Liaison">
             <End Role="Liaison" EntitySet="Liaison" />
             <End Role="Liaison_Adsl" EntitySet="Liaison_Adsl" />
@@ -645,8 +645,8 @@
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="AgencesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
-        <EntityContainer Name="AgenceEntities" annotation:LazyLoadingEnabled="true">
+      <Schema Namespace="AgencesModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="AgenceEntities" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
           <EntitySet Name="Agences" EntityType="AgencesModel.Agences" />
           <EntitySet Name="Equipement" EntityType="AgencesModel.Equipement" />
           <EntitySet Name="Zones" EntityType="AgencesModel.Zones" />
@@ -737,7 +737,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="Code" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Adresse_IP" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Nom" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
@@ -764,7 +764,7 @@
             <PropertyRef Name="ID_Equipement" />
           </Key>
           <Property Name="Agence_ID" Type="Int32" Nullable="false" />
-          <Property Name="ID_Equipement" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_Equipement" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="Etat" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Model" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
@@ -788,7 +788,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="Libelle" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Description" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
           <NavigationProperty Name="Agences" Relationship="AgencesModel.FK_Agences_Zone" FromRole="Zones" ToRole="Agences" />
@@ -809,7 +809,7 @@
           <Key>
             <PropertyRef Name="ID_Liaison" />
           </Key>
-          <Property Type="Int32" Name="ID_Liaison" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID_Liaison" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="String" Name="Etat" Nullable="false" />
           <Property Type="String" Name="Adresse_IP" Nullable="false" />
           <Property Type="String" Name="Description" Nullable="false" />
@@ -821,14 +821,14 @@
           <Property Type="String" Name="Adresse_Carte" Nullable="false" />
           <NavigationProperty Name="Historiques_Adsls" Relationship="AgencesModel.FK_Historiques_Adsls_Liaison_Adsl" FromRole="Adsl" ToRole="Historiques_Adsls" />
         </EntityType>
-        <EntityType Name="Framerelay" BaseType="AgencesModel.Liaison" >
+        <EntityType Name="Framerelay" BaseType="AgencesModel.Liaison">
           <NavigationProperty Name="Historiques_Framerelays" Relationship="AgencesModel.FK_Historiques_Framerelays_Liaison_Framerelay" FromRole="Framerelay" ToRole="Historiques_Framerelays" />
         </EntityType>
         <EntityType Name="Historique_Login">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="ID_User" />
           <Property Type="String" Name="Hostname" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="IPAdresse" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -840,7 +840,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="String" Name="Nom" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Prenom" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Email" MaxLength="70" FixedLength="false" Unicode="false" />
@@ -866,10 +866,10 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Equipement_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
-          <End Type="AgencesModel.Equipement" Role="Equipement" Multiplicity="*" >
+          <End Type="AgencesModel.Equipement" Role="Equipement" Multiplicity="*">
           </End>
           <ReferentialConstraint>
             <Principal Role="Agences">
@@ -881,7 +881,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Liaison_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Liaison" Role="Liaison" Multiplicity="*" />
@@ -895,7 +895,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historique_Login_Respnosables">
-          <End Type="AgencesModel.Responsables" Role="Respnosable" Multiplicity="0..1" >
+          <End Type="AgencesModel.Responsables" Role="Respnosable" Multiplicity="0..1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historique_Login" Role="Historique_Login" Multiplicity="*" />
@@ -912,7 +912,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Adsl_ID" Nullable="false" />
           <Property Type="String" Name="Etat_Tunnel" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Etat_Carte" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -930,7 +930,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Agence_ID" Nullable="false" />
           <Property Type="String" Name="Code" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Adresse_IP" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -949,7 +949,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Framerelay_ID" Nullable="false" />
           <Property Type="String" Name="Etat" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Adresse_IP" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -965,7 +965,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Modem_ID" Nullable="false" />
           <Property Type="String" Name="Etat" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Type" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -982,7 +982,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Routeur_ID" Nullable="false" />
           <Property Type="String" Name="Etat" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Type" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -1001,7 +1001,7 @@
           <Key>
             <PropertyRef Name="ID" />
           </Key>
-          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Type="Int32" Name="Switcheur_ID" Nullable="false" />
           <Property Type="String" Name="Etat" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="Type" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
@@ -1017,7 +1017,7 @@
           <NavigationProperty Name="Agence" Relationship="AgencesModel.FK_Historiques_Switcheurs_Agences" FromRole="Historiques_Switcheurs" ToRole="Agences" />
         </EntityType>
         <Association Name="FK_Historiques_Agences_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Agences" Role="Historiques_Agences" Multiplicity="*" />
@@ -1031,7 +1031,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Modems_Equipement_Modems">
-          <End Type="AgencesModel.Modems" Role="Modems" Multiplicity="1" >
+          <End Type="AgencesModel.Modems" Role="Modems" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Modems" Role="Historiques_Modems" Multiplicity="*" />
@@ -1045,7 +1045,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Routeurs_Equipement_Routeurs">
-          <End Type="AgencesModel.Routeurs" Role="Routeurs" Multiplicity="1" >
+          <End Type="AgencesModel.Routeurs" Role="Routeurs" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Routeurs" Role="Historiques_Routeurs" Multiplicity="*" />
@@ -1059,7 +1059,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Switcheurs_Equipement_Switchers">
-          <End Type="AgencesModel.Switchers" Role="Switchers" Multiplicity="1" >
+          <End Type="AgencesModel.Switchers" Role="Switchers" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Switcheurs" Role="Historiques_Switcheurs" Multiplicity="*" />
@@ -1073,7 +1073,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Adsls_Liaison_Adsl">
-          <End Type="AgencesModel.Adsl" Role="Adsl" Multiplicity="1" >
+          <End Type="AgencesModel.Adsl" Role="Adsl" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Adsls" Role="Historiques_Adsls" Multiplicity="*" />
@@ -1087,7 +1087,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Framerelays_Liaison_Framerelay">
-          <End Type="AgencesModel.Framerelay" Role="Framerelay" Multiplicity="1" >
+          <End Type="AgencesModel.Framerelay" Role="Framerelay" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Framerelays" Role="Historiques_Framerelays" Multiplicity="*" />
@@ -1101,7 +1101,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Adsls_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Adsls" Role="Historiques_Adsls" Multiplicity="*" />
@@ -1115,7 +1115,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Framerelays_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Framerelays" Role="Historiques_Framerelays" Multiplicity="*" />
@@ -1129,7 +1129,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Modems_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Modems" Role="Historiques_Modems" Multiplicity="*" />
@@ -1143,7 +1143,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Routeurs_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Routeurs" Role="Historiques_Routeurs" Multiplicity="*" />
@@ -1157,7 +1157,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Historiques_Switcheurs_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Historiques_Switcheurs" Role="Historiques_Switcheurs" Multiplicity="*" />
@@ -1188,7 +1188,7 @@
           <Property Type="Time" Name="TimeFin" />
         </EntityType>
         <Association Name="FK_Responsabilité_Agences">
-          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1" >
+          <End Type="AgencesModel.Agences" Role="Agences" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Responsabilité" Role="Responsabilité" Multiplicity="*" />
@@ -1202,7 +1202,7 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_Responsabilité_Responsables">
-          <End Type="AgencesModel.Responsables" Role="Responsables" Multiplicity="1" >
+          <End Type="AgencesModel.Responsables" Role="Responsables" Multiplicity="1">
             <OnDelete Action="Cascade" />
           </End>
           <End Type="AgencesModel.Responsabilité" Role="Responsabilité" Multiplicity="*" />
@@ -1219,7 +1219,7 @@
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
-    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+    <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
   <EntityContainerMapping StorageEntityContainer="AgencesModelStoreContainer" CdmEntityContainer="AgenceEntities">
     <EntitySetMapping Name="Agences">
       <EntityTypeMapping TypeName="IsTypeOf(AgencesModel.Agences)">
@@ -1447,7 +1447,7 @@
 </Mapping></edmx:Mappings>
   </edmx:Runtime>
   <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
-  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
     <Connection>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
@@ -1496,14 +1496,14 @@
         </InheritanceConnector>
         <EntityTypeShape EntityType="AgencesModel.Liaison" Width="1.5" PointX="18.125" PointY="3.75" Height="2.1725878906249996" />
         <EntityTypeShape EntityType="AgencesModel.Adsl" Width="2.125" PointX="15.75" PointY="4.875" Height="1.4033821614583246" />
-        <InheritanceConnector EntityType="AgencesModel.Adsl" ManuallyRouted="false" >
+        <InheritanceConnector EntityType="AgencesModel.Adsl" ManuallyRouted="false">
           <ConnectorPoint PointX="18.125" PointY="5.3987939453125" />
           <ConnectorPoint PointX="18.083333333333332" PointY="5.3987939453124989" />
           <ConnectorPoint PointX="17.916666666666668" PointY="5.3987939453125" />
           <ConnectorPoint PointX="17.875" PointY="5.3987939453125" />
         </InheritanceConnector>
         <EntityTypeShape EntityType="AgencesModel.Framerelay" Width="1.5" PointX="16.375" PointY="3.625" Height="1.0187792968750102" />
-        <InheritanceConnector EntityType="AgencesModel.Framerelay" ManuallyRouted="false" >
+        <InheritanceConnector EntityType="AgencesModel.Framerelay" ManuallyRouted="false">
           <ConnectorPoint PointX="18.125" PointY="4.2930403645833337" />
           <ConnectorPoint PointX="18.083333333333332" PointY="4.2930403645833328" />
           <ConnectorPoint PointX="17.916666666666668" PointY="4.2930403645833337" />
@@ -1519,21 +1519,21 @@
         </InheritanceConnector>
         <EntityTypeShape EntityType="AgencesModel.Historique_Login" Width="1.625" PointX="15.125" PointY="6.625" Height="2.3648893229166674" />
         <EntityTypeShape EntityType="AgencesModel.Responsables" Width="1.5" PointX="17.875" PointY="6.5" Height="3.1340950520833388" />
-        <AssociationConnector Association="AgencesModel.FK_Agences_Respnosables" >
+        <AssociationConnector Association="AgencesModel.FK_Agences_Respnosables">
           <ConnectorPoint PointX="19.375" PointY="7.4660546875" />
           <ConnectorPoint PointX="20.125" PointY="7.4660546875" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Equipement_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Equipement_Agences">
           <ConnectorPoint PointX="22.625" PointY="5.9220435697115388" />
           <ConnectorPoint PointX="23.125" PointY="5.9220435697115388" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Liaison_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Liaison_Agences">
           <ConnectorPoint PointX="20.125" PointY="4.8362939453125" />
           <ConnectorPoint PointX="19.958333333333332" PointY="4.8362939453124989" />
           <ConnectorPoint PointX="19.791666666666668" PointY="4.8362939453125" />
           <ConnectorPoint PointX="19.625" PointY="4.8362939453125" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historique_Login_Respnosables" >
+        <AssociationConnector Association="AgencesModel.FK_Historique_Login_Respnosables">
           <ConnectorPoint PointX="17.875" PointY="7.8074446614583337" />
           <ConnectorPoint PointX="16.927083333333332" PointY="7.8074446614583328" />
           <ConnectorPoint PointX="16.760416666666668" PointY="7.8074446614583337" />
@@ -1545,27 +1545,27 @@
         <EntityTypeShape EntityType="AgencesModel.Historiques_Modems" Width="1.5" PointX="25.625" PointY="8.5" Height="3.3263964843749996" />
         <EntityTypeShape EntityType="AgencesModel.Historiques_Routeurs" Width="1.5" PointX="28" PointY="2.5" Height="3.7109993489583326" />
         <EntityTypeShape EntityType="AgencesModel.Historiques_Switcheurs" Width="1.5" PointX="28.125" PointY="6.375" Height="3.326396484374996" />
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Agences_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Agences_Agences">
           <ConnectorPoint PointX="22.625" PointY="7.9372054036458328" />
           <ConnectorPoint PointX="22.75" PointY="7.9372054036458328" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Modems_Equipement_Modems" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Modems_Equipement_Modems">
           <ConnectorPoint PointX="26.0625" PointY="8.3360807291666656" />
           <ConnectorPoint PointX="26.0625" PointY="8.5" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Routeurs_Equipement_Routeurs" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Routeurs_Equipement_Routeurs">
           <ConnectorPoint PointX="26.625" PointY="4.422841796875" />
           <ConnectorPoint PointX="28" PointY="4.422841796875" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Switcheurs_Equipement_Switchers" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Switcheurs_Equipement_Switchers">
           <ConnectorPoint PointX="27.375" PointY="6.672841796875" />
           <ConnectorPoint PointX="28.125" PointY="6.672841796875" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Adsls_Liaison_Adsl" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Adsls_Liaison_Adsl">
           <ConnectorPoint PointX="16.84375" PointY="6.47068359375" />
           <ConnectorPoint PointX="16.84375" PointY="9.5" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Framerelays_Liaison_Framerelay" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Framerelays_Liaison_Framerelay">
           <ConnectorPoint PointX="16.84375" PointY="3.625" />
           <ConnectorPoint PointX="16.84375" PointY="3.1824446614583328" />
           <ConnectorPoint PointX="19.791666666666668" PointY="3.1824446614583324" />
@@ -1574,21 +1574,21 @@
           <ConnectorPoint PointX="21.458333333333332" PointY="3.1824446614583328" />
           <ConnectorPoint PointX="23.125" PointY="3.1824446614583328" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Adsls_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Adsls_Agences">
           <ConnectorPoint PointX="20.58105203125" PointY="8.432109375" />
           <ConnectorPoint PointX="20.58105203125" PointY="10.1006982421875" />
           <ConnectorPoint PointX="16.875" PointY="10.1006982421875" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Framerelays_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Framerelays_Agences">
           <ConnectorPoint PointX="22.625" PointY="3.7545475260416667" />
           <ConnectorPoint PointX="23.125" PointY="3.7545475260416667" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Modems_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Modems_Agences">
           <ConnectorPoint PointX="21.0996090625" PointY="8.432109375" />
           <ConnectorPoint PointX="21.0996090625" PointY="11.424947916666666" />
           <ConnectorPoint PointX="25.625" PointY="11.424947916666666" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Routeurs_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Routeurs_Agences">
           <ConnectorPoint PointX="22.625" PointY="5.19210827323718" />
           <ConnectorPoint PointX="23.0625" PointY="5.19210827323718" />
           <ConnectorPoint PointX="23.0625" PointY="7.03318359375" />
@@ -1597,7 +1597,7 @@
           <ConnectorPoint PointX="28.46875" PointY="6.3125" />
           <ConnectorPoint PointX="28.46875" PointY="6.2109993489583326" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Historiques_Switcheurs_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Historiques_Switcheurs_Agences">
           <ConnectorPoint PointX="22.625" PointY="7.34570062099359" />
           <ConnectorPoint PointX="23.0625" PointY="7.34570062099359" />
           <ConnectorPoint PointX="23.0625" PointY="7.03318359375" />
@@ -1607,12 +1607,12 @@
           <ConnectorPoint PointX="28.875" PointY="6.375" />
         </AssociationConnector>
         <EntityTypeShape EntityType="AgencesModel.Responsabilité" Width="1.5" PointX="17.375" PointY="0.625" Height="2.3648893229166661" />
-        <AssociationConnector Association="AgencesModel.FK_Responsabilité_Agences" >
+        <AssociationConnector Association="AgencesModel.FK_Responsabilité_Agences">
           <ConnectorPoint PointX="21.375" PointY="3.375" />
           <ConnectorPoint PointX="21.375" PointY="1.8074446614583328" />
           <ConnectorPoint PointX="18.875" PointY="1.8074446614583328" />
         </AssociationConnector>
-        <AssociationConnector Association="AgencesModel.FK_Responsabilité_Responsables" >
+        <AssociationConnector Association="AgencesModel.FK_Responsabilité_Responsables">
           <ConnectorPoint PointX="18.6250005" PointY="6.5" />
           <ConnectorPoint PointX="18.6250005" PointY="6.172587890625" />
           <ConnectorPoint PointX="19.875" PointY="6.172587890625" />
